@@ -8,6 +8,10 @@
     "test": "mocha --exit"
   },
   "author": "Jeff Wilkey",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffWilkey/blog-api.git"
+  },
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
