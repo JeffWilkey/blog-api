@@ -4,8 +4,8 @@
   "description": "A simple blog post api",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "mocha --exit"
   },
   "author": "Jeff Wilkey",
   "license": "ISC",
@@ -14,5 +14,10 @@
     "express": "^4.16.3",
     "morgan": "^1.9.0",
     "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.1.1"
   }
 }
