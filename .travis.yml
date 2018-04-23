@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: dtBr4NY9EaTz4iIAfPdiAVl6BpNaOgv95VSLhRVG1q1q1HOq56/OXYvT0XOl7fpAeKi5OSon1fvGGwFiv3H2JqEEQk3QviXy4PQ1qilWNIG7ejXMH9L8hR+viKOXNGaDae7qI3yQ/vBltfvKb3pofaE0wr38sDNz4p4phyGiSfkdGaVMSm6MTi0zAoZtEe8upYiw1FsfuL/UckctTQQRGXjxSHO+QeanzSweFiUpkWhZB1Hc3zmPEIWd+Osui+QTCruWxO3Sa2JRIdjt0q1NkviG6yxqmdE3l4FjkUndELZDAjIFN0IKzJaHZ/X/B0xQrtYW2ONGBRAj9IEv8d0j4Oqwrd/V8Fp75iUo8nG99jSpw98nYHgbyVZ0eJNfgoDIj2LDixI1tAQNlKUaUTlsFN9UhR1cwP6Cd+8IAmvGsv6btac1GUqdqjO1Tp7aLrerLeHVLvAVpClRsxn5S2cLZkYyTEEQRtHVpRVuquk38ch/jrSuyB+GgBP0e/8uk3aXw6t8p+HKzg4qjgjCC0f2o2ytNYZTez9krtI2GabK5A5lg+BJF+lQs/86gqWziDexm2s+ER/ILtrQDAWE0y0CzEj+Q+LqIX9gpcjtDfaLwM8IitdDE2YxQlqwbEkPhkbAT+kYwEvOuHCN+75Z7maJISUBw9eseLU+R3n/T2pWDOQ=
+  app: intense-citadel-87734
+  on:
+    repo: JeffWilkey/blog-api
